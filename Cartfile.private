@@ -1,3 +1,5 @@
 github "jspahrsummers/xcconfigs" ~> 1.1
 github "Quick/Quick" ~> 2.0
 github "Quick/Nimble" ~> 8.0.1
+github "captainOfM/ReactiveSwift" "m1-support"
+
