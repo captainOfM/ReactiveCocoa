@@ -1187,7 +1187,7 @@
 				D047263A19E49FE8006002AA /* macOS-Framework.xcconfig */,
 				D047263B19E49FE8006002AA /* macOS-StaticLibrary.xcconfig */,
 			);
-			path = "macOS";
+			path = macOS;
 			sourceTree = "<group>";
 		};
 		E3AA54BF214291590077B206 /* WatchKit */ = {
@@ -2287,6 +2287,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.ReactiveMapKit;
 				PRODUCT_NAME = ReactiveMapKit;
 				SDKROOT = iphoneos;
@@ -2300,6 +2301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.ReactiveMapKit;
 				PRODUCT_NAME = ReactiveMapKit;
 				SDKROOT = iphoneos;
@@ -2313,6 +2315,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.ReactiveMapKit;
 				PRODUCT_NAME = ReactiveMapKit;
 				SDKROOT = iphoneos;
@@ -2326,6 +2329,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactivecocoa.ReactiveMapKit;
 				PRODUCT_NAME = ReactiveMapKit;
 				SDKROOT = iphoneos;
@@ -2691,6 +2695,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveCocoa/include/module.modulemap";
 			};
 			name = Debug;
@@ -2703,6 +2708,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveCocoa/include/module.modulemap";
 			};
 			name = Release;
@@ -2783,6 +2789,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveCocoa/include/module.modulemap";
 			};
 			name = Profile;
@@ -2853,6 +2860,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveCocoa/include/module.modulemap";
 			};
 			name = Test;
